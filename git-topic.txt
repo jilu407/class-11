@@ -1,0 +1,29 @@
+git add * 
+git commit - m "message"
+git push origin branch-name
+===========
+create a branch
+git branch 
+git branch branch-name
+git checkout branch-name
+
+create a branch and checkout the branch
+git checkout -b branch-name
+
+-- pull latest change from origin-branch 
+git checkout master
+git pull origin master
+
+---- pull change from one branch to another branch 
+
+git checkout feture-branch
+git pull orign master
+
+git fetch origin == it fetch the info from origin 
+
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+
+how to remove files from  commit?
+git reset commitID (one step back commitID )
+
+

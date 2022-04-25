@@ -26,4 +26,9 @@ git fetch origin == it fetch the info from origin
 how to remove files from  commit?
 git reset commitID (one step back commitID )
 
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+
+jenkins pipeline build and deploy  == test 
+
+
 

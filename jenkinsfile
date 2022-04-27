@@ -3,7 +3,13 @@ pipeline{
     stages{
         stage ('sai-ram') {
             steps{
-                echo "hi"
+                echo "hi..............................."
+
+            }
+        }
+        stage ('arun') {
+            steps{
+                echo "hi friends........................"
 
             }
         }

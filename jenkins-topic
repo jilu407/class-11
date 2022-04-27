@@ -1,0 +1,84 @@
+what is jenkins
+
+jenkins is a automation test or integration tool 
+
+jenkins java software 
+
+what are job we can create in jenkins 
+
+free style job
+maven build job
+jenkins pipeline 
+   declarative pipeline
+   scripted pipeline
+
+jenkins admin
+   manage jenkins 
+   --> manage plugins
+   --> configuration 
+   --> system configuration 
+   --> user/cridentials 
+   -->
+
+
+
+========================================================================
+
+why we go with jenkins is there any another tool insteded of jenkins == pipeline time use small code 5% 
+
+hudson  jenkins
+
+jenkins test the code , build code, (pipeline)
+
+what type jenkins test the code(node , .net, python, java)
+
+we some jenkins plugins 
+if plugin is not avalible then we need to install software in jenkins server 
+
+job 1 output need as for second job input 
+
+
+
+migrate jenkins from old stanalone server to cloud ec2 new-server (pratical on jenkins topic last day)
+
+jenkins home directory /var/lib/jenkins
+
+step1 stop the jenkins 
+zip -r jenkins-backup.zip /var/lib/jenkins
+scp jenkins-backup to new ec2 server 
+install jenkins in new ec2 server 
+sudo unzip -r jenkins-backup /var/lib/jenkins
+and start the jenkins server 
+
+for java build job 
+maven builds 
+
+pox.xml == this config file for java jobs (pom.xml = configuration )
+
+testing == 
+pom.xml 
+testcase standardes
+buils (jar,ear,war)
+==========================================================
+in jenkins pipeline we have two types
+1 scripted pipeline
+2 declarative pipeline 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

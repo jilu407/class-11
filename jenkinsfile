@@ -1,15 +1,17 @@
 pipeline{
     agent any
     stages{
-        stage ('sai-ram') {
+        stage ('test') {
             steps{
                 echo "hi..............................."
+                echo "hhhllkknlkll"
 
             }
         }
-        stage ('arun') {
+        stage ('build') {
             steps{
                 echo "hi friends........................"
+                echo "buils done"
 
             }
         }
